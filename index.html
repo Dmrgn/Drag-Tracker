@@ -1,0 +1,51 @@
+<html lang="en">
+
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Morgan</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <!-- fonts -->
+    <link rel="stylesheet" href="stylesheet.css" />
+    <script defer src="js/Button.js"></script>
+    <script defer src="js/main.js"></script>
+</head>
+
+<body class="font-mono bg-gray-900">
+    <div style="width: 100vw; height: 10vh" class="fixed top-0 flex items-center justify-between bg-gray-800">
+        <p class="p-5 text-3xl text-gray-300">Click Speed Test 🖱️⚡</p>
+        <p></p>
+        <p class="p-5 text-gray-300">by Daniel Morgan</p>
+    </div>
+    <div style="margin-top:20vh;"></div>
+    <div class="flex justify-center">
+        <div class="flex items-stretch justify-center">
+            <div id="left" style="height: 40vh; width: 20vw;" class="flex items-center justify-center bg-yellow-500">
+                <p id="leftcur">Left Click</p>
+            </div>
+            <div id="right" style="height: 40vh; width: 20vw;" class="flex items-center justify-center bg-green-600">
+                <p id="rightcur">Right Click</p>
+            </div>
+        </div>
+    </div>
+    <div style="margin-top:10vh;"></div>
+    <div class="flex justify-center">
+        <div class="flex items-stretch justify-center">
+            <div id="left" style="height: 10vh; width: 15vw;" class="flex items-center justify-center bg-gray-500">
+                <p>Average : </p>
+                <p id="avg">0</p>
+            </div>
+            <div style="width: 5vw;"></div>
+            <div id="right" style="height: 10vh; width: 15vw;" class="flex items-center justify-center bg-gray-500">
+                <p>Fastest : </p>
+                <p id="high">0</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
